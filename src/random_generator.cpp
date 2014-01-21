@@ -19,7 +19,7 @@
  ***************************************************************************/
  
 #include <math.h>
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include "random_generator.h"
 #include "constants.h"
 

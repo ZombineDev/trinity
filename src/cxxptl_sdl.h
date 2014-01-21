@@ -21,8 +21,8 @@
 #ifndef __CXXPTL_SDL_H__
 #define __CXXPTL_SDL_H__
 
-#include <SDL/SDL_thread.h>
-#include <SDL/SDL_mutex.h>
+#include <SDL_thread.h>
+#include <SDL_mutex.h>
 
 /**
  * @File    cxxptl_sdl.h

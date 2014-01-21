@@ -23,7 +23,7 @@
 #include <algorithm>
 #include <string>
 #include <vector>
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include "mesh.h"
 #include "constants.h"
 #include "color.h"

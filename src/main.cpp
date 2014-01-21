@@ -18,7 +18,7 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include <vector>
 #include <iostream>
 #include "sdl.h"
@@ -464,7 +464,11 @@ void handleMouse(SDL_MouseButtonEvent *mev)
 	printf("Raytracing completed!\n");
 }
 
+#ifdef MSVC12
+const char* defaultScene = "../data/boxed.trinity";
+#else
 const char* defaultScene = "data/boxed.trinity";
+#endif
 
 static bool parseCmdLine(int argc, char** argv)
 {
